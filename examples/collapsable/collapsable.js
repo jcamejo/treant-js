@@ -4,7 +4,7 @@
             container: "#collapsable-example",
 
             animateOnInit: true,
-            
+
             node: {
                 collapsable: true
             },
@@ -56,7 +56,7 @@
         container: "#collapsable-example",
 
         animateOnInit: true,
-        
+
         node: {
             collapsable: true
         },
