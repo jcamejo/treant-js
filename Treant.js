@@ -1893,7 +1893,7 @@
             var elem = document.getElementById(this.nodeInnerHTML.substring(1));
             if (elem) {
                 node = elem.cloneNode(true);
-                node.id += "-clone";
+                node.id = this.nodeHTMLid || (node.id + '-clone');
                 node.className += " node";
             }
             else {
