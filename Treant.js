@@ -1894,7 +1894,7 @@
             if (elem) {
                 node = elem.cloneNode(true);
                 node.id = this.nodeHTMLid || (node.id + '-clone');
-                node.className += node.HTMLclass + " node";
+                node.className += this.nodeHTMLclass + " node";
             }
             else {
                 node.innerHTML = "<b> Wrong ID selector </b>";
